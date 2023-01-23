@@ -17,3 +17,22 @@ a {
 .about {
 	background-color: var(--green);
 }
+
+/* DEBUG */
+
+main [class*='col']:not(.row)::before,
+footer [class*='col']:not(.row)::before {
+	content: 'content';
+	display: block;
+	border: 2px solid currentColor;
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.page-footer {
+	background-color: var(--blue);
+}
+
+.footer-copy {
+	background-color: var(--dark-blue);
+}
