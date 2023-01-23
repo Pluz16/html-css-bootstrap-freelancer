@@ -1,0 +1,19 @@
+:root {
+	--green: #1abc9c;
+	--blue: #3a546d;
+	--dark-blue: #2c3e50;
+}
+
+.main-header {
+	background-color: var(--dark-blue);
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+.hero,
+.about {
+	background-color: var(--green);
+}
